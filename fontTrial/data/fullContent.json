@@ -1,0 +1,1753 @@
+{
+    "embedded": {
+        "assetList": {
+            "focusedItemIndex": 0,
+            "items": [{
+                    "focusedItemIndex": 0,
+                    "items": [{
+                            "assetType": "broadcastTv",
+                            "channelName": "DiscoveryChannel",
+                            "clientSidePVRStatus": true,
+                            "contentId": "",
+                            "duration": 600000,
+                            "iconsString": "",
+                            "isFuture": false,
+                            "labelProgramInfo": "13:40 - 13:50",
+                            "links": [{
+                                    "event": "onTuneSuccess",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/fullScreen/playtv?serviceId=301&logicalChannelNumber=8&classificationId=IVP%3AHome%3AnowOnTv&currentTime={currentTime}&isTVBlocked={isTVBlocked}&displayInfolayer=true&uiState=fullScreen&goToFullScreen=true&locallyServed=true",
+                                    "method": "POST",
+                                    "setPlayIcon": true
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "logicalChannelNumber": 8
+                                            },
+                                            "UI_FunctionName": "performTune",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "events": [
+                                        "ok",
+                                        "play"
+                                    ],
+                                    "nextAction": "onTuneSuccess"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=301&startTime=1741689600000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForInfo",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "info"
+                                }, {
+                                    "event": "localDataSourceLoadedForInfo",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/screens/linearActionMenu?serviceId=301&startTime=1741689600000&contentId=uri%3Aprg%3A2503111040S301E065~uri%3Ascd%3A301%3A2503111040S301E065%3A11032025104000&classificationId=IVP%3AHome%3AnowOnTv&pageIndex=1&isTsb={isTsb}&lPvrParams={lPvrParams}&assetType=ltv",
+                                    "method": "GET",
+                                    "target": "KActionMenu"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=301&startTime=1741689600000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForOTR",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "record"
+                                }, {
+                                    "actions": [{
+                                            "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/library/otr?serviceId=301&contentId=uri%3Aprg%3A2503111040S301E065~uri%3Ascd%3A301%3A2503111040S301E065%3A11032025104000&pageIndex=1&startTime=1741689600000&classificationId=IVP%3AHome%3AnowOnTv&logicalChannelNumber=8&lPvrParams={lPvrParams}&keepOriginalFocus=true&backToHubReload=false&roundDown=false",
+                                            "type": "dynamic"
+                                        }
+                                    ],
+                                    "event": "localDataSourceLoadedForOTR"
+                                }
+                            ],
+                            "priceTag": null,
+                            "regularChannelLogo": "https://go.narmada.ivpdth.in/bein/jeevan/logos/beIN%20Sports%201%20Center.svg",
+                            "serviceId": "301",
+                            "shortSynopsis": "SHORT:  Thor is on the other side of the universe...",
+                            "showPlayIcon": true,
+                            "startTime": 1741689600000,
+                            "thumbnailAspect": "landscape",
+                            "thumbnailUri": "http://cdn-media.ivpdth.in/Linear/poster640x360_005.jpg",
+                            "title": "A0311S301E065:SHORT:eng"
+                        }, {
+                            "assetType": "broadcastTv",
+                            "channelName": "HBO HD",
+                            "clientSidePVRStatus": true,
+                            "contentId": "",
+                            "duration": 600000,
+                            "iconsString": " ",
+                            "isFuture": false,
+                            "labelProgramInfo": "13:40 - 13:50",
+                            "links": [{
+                                    "event": "onTuneSuccess",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/fullScreen/playtv?serviceId=302&logicalChannelNumber=10&classificationId=IVP%3AHome%3AnowOnTv&currentTime={currentTime}&isTVBlocked={isTVBlocked}&displayInfolayer=true&uiState=fullScreen&goToFullScreen=true&locallyServed=true",
+                                    "method": "POST",
+                                    "setPlayIcon": true
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "logicalChannelNumber": 10
+                                            },
+                                            "UI_FunctionName": "performTune",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "events": [
+                                        "ok",
+                                        "play"
+                                    ],
+                                    "nextAction": "onTuneSuccess"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=302&startTime=1741689600000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForInfo",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "info"
+                                }, {
+                                    "event": "localDataSourceLoadedForInfo",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/screens/linearActionMenu?serviceId=302&startTime=1741689600000&contentId=uri%3Aprg%3A2503111040S302E065~uri%3Ascd%3A302%3A2503111040S302E065%3A11032025104000&classificationId=IVP%3AHome%3AnowOnTv&pageIndex=1&isTsb={isTsb}&lPvrParams={lPvrParams}&assetType=ltv",
+                                    "method": "GET",
+                                    "target": "KActionMenu"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=302&startTime=1741689600000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForOTR",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "record"
+                                }, {
+                                    "actions": [{
+                                            "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/library/otr?serviceId=302&contentId=uri%3Aprg%3A2503111040S302E065~uri%3Ascd%3A302%3A2503111040S302E065%3A11032025104000&pageIndex=1&startTime=1741689600000&classificationId=IVP%3AHome%3AnowOnTv&logicalChannelNumber=10&lPvrParams={lPvrParams}&keepOriginalFocus=true&backToHubReload=false&roundDown=false",
+                                            "type": "dynamic"
+                                        }
+                                    ],
+                                    "event": "localDataSourceLoadedForOTR"
+                                }
+                            ],
+                            "priceTag": null,
+                            "regularChannelLogo": "https://go.narmada.ivpdth.in/bein/jeevan/logos/beIN%20Sports%202%20Center.svg",
+                            "serviceId": "302",
+                            "shortSynopsis": "SHORT:Through a series of daring escapades deep...",
+                            "showPlayIcon": true,
+                            "startTime": 1741689600000,
+                            "thumbnailAspect": "landscape",
+                            "thumbnailUri": "http://cdn-media.ivpdth.in/Linear/AwladAdam_640360.webp",
+                            "title": "A0311S302E065:SHORT:eng"
+                        }, {
+                            "assetType": "broadcastTv",
+                            "channelName": "PELANGI",
+                            "clientSidePVRStatus": true,
+                            "contentId": "",
+                            "duration": 600000,
+                            "iconsString": "",
+                            "isFuture": false,
+                            "labelProgramInfo": "13:40 - 13:50",
+                            "links": [{
+                                    "event": "onTuneSuccess",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/fullScreen/playtv?serviceId=305&logicalChannelNumber=20&classificationId=IVP%3AHome%3AnowOnTv&currentTime={currentTime}&isTVBlocked={isTVBlocked}&displayInfolayer=true&uiState=fullScreen&goToFullScreen=true&locallyServed=true",
+                                    "method": "POST",
+                                    "setPlayIcon": true
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "logicalChannelNumber": 20
+                                            },
+                                            "UI_FunctionName": "performTune",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "events": [
+                                        "ok",
+                                        "play"
+                                    ],
+                                    "nextAction": "onTuneSuccess"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=305&startTime=1741689600000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForInfo",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "info"
+                                }, {
+                                    "event": "localDataSourceLoadedForInfo",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/screens/linearActionMenu?serviceId=305&startTime=1741689600000&contentId=uri%3Aprg%3A2503111040S305E065~uri%3Ascd%3A305%3A2503111040S305E065%3A11032025104000&classificationId=IVP%3AHome%3AnowOnTv&pageIndex=1&isTsb={isTsb}&lPvrParams={lPvrParams}&assetType=ltv",
+                                    "method": "GET",
+                                    "target": "KActionMenu"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=305&startTime=1741689600000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForOTR",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "record"
+                                }, {
+                                    "actions": [{
+                                            "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/library/otr?serviceId=305&contentId=uri%3Aprg%3A2503111040S305E065~uri%3Ascd%3A305%3A2503111040S305E065%3A11032025104000&pageIndex=1&startTime=1741689600000&classificationId=IVP%3AHome%3AnowOnTv&logicalChannelNumber=20&lPvrParams={lPvrParams}&keepOriginalFocus=true&backToHubReload=false&roundDown=false",
+                                            "type": "dynamic"
+                                        }
+                                    ],
+                                    "event": "localDataSourceLoadedForOTR"
+                                }
+                            ],
+                            "priceTag": null,
+                            "regularChannelLogo": "http://linear-poster.astro.com.my/prod/logo/Pelangi_v1.png",
+                            "serviceId": "305",
+                            "shortSynopsis": "SHORT:When an IMF mission ends badly, the world is...",
+                            "showPlayIcon": true,
+                            "startTime": 1741689600000,
+                            "thumbnailAspect": "landscape",
+                            "thumbnailUri": "http://cdn-media.ivpdth.in/Linear/poster640x360_005.jpg",
+                            "title": "The Glory Tuesday Episode 65"
+                        }, {
+                            "assetType": "broadcastTv",
+                            "channelName": "Astro_IVP_1900",
+                            "clientSidePVRStatus": true,
+                            "contentId": "",
+                            "duration": 900000,
+                            "iconsString": " ",
+                            "isFuture": false,
+                            "labelProgramInfo": "13:45 - 14:00",
+                            "links": [{
+                                    "event": "onTuneSuccess",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/fullScreen/playtv?serviceId=1900&logicalChannelNumber=101&classificationId=IVP%3AHome%3AnowOnTv&currentTime={currentTime}&isTVBlocked={isTVBlocked}&displayInfolayer=true&uiState=fullScreen&goToFullScreen=true&locallyServed=true",
+                                    "method": "POST",
+                                    "setPlayIcon": true
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "logicalChannelNumber": 101
+                                            },
+                                            "UI_FunctionName": "performTune",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "events": [
+                                        "ok",
+                                        "play"
+                                    ],
+                                    "nextAction": "onTuneSuccess"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1900&startTime=1741689900000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForInfo",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "info"
+                                }, {
+                                    "event": "localDataSourceLoadedForInfo",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/screens/linearActionMenu?serviceId=1900&startTime=1741689900000&contentId=uri%3Aprg%3A2503111045S1900E044~uri%3Ascd%3A1900%3A2503111045S1900E044%3A11032025104500&classificationId=IVP%3AHome%3AnowOnTv&pageIndex=1&isTsb={isTsb}&lPvrParams={lPvrParams}&assetType=ltv",
+                                    "method": "GET",
+                                    "target": "KActionMenu"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1900&startTime=1741689900000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForOTR",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "record"
+                                }, {
+                                    "actions": [{
+                                            "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/library/otr?serviceId=1900&contentId=uri%3Aprg%3A2503111045S1900E044~uri%3Ascd%3A1900%3A2503111045S1900E044%3A11032025104500&pageIndex=1&startTime=1741689900000&classificationId=IVP%3AHome%3AnowOnTv&logicalChannelNumber=101&lPvrParams={lPvrParams}&keepOriginalFocus=true&backToHubReload=false&roundDown=false",
+                                            "type": "dynamic"
+                                        }
+                                    ],
+                                    "event": "localDataSourceLoadedForOTR"
+                                }
+                            ],
+                            "priceTag": null,
+                            "regularChannelLogo": "http://vodasset.s3.ap-south-1.amazonaws.com/beinLogo/beIN_Baraem.png",
+                            "serviceId": "1900",
+                            "shortSynopsis": "SHORT:King T'Challa returns home from America to the...",
+                            "showPlayIcon": true,
+                            "startTime": 1741689900000,
+                            "thumbnailAspect": "landscape",
+                            "thumbnailUri": "http://cdn-media.ivpdth.in/Linear/poster640x360_009.jpg",
+                            "title": "S1C1900D1103044:SHORT:eng EP1"
+                        }
+                    ],
+                    "swimlaneType": "landscapeType1"
+                }, {
+                    "items": [{
+                            "assetType": "broadcastTv",
+                            "channelName": "Astro_IVP_1901",
+                            "clientSidePVRStatus": true,
+                            "contentId": "",
+                            "duration": 600000,
+                            "iconsString": "",
+                            "isFuture": false,
+                            "labelProgramInfo": "13:40 - 13:50",
+                            "links": [{
+                                    "event": "onTuneSuccess",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/fullScreen/playtv?serviceId=1901&logicalChannelNumber=102&classificationId=IVP%3AHome%3AnowOnTv&currentTime={currentTime}&isTVBlocked={isTVBlocked}&displayInfolayer=true&uiState=fullScreen&goToFullScreen=true&locallyServed=true",
+                                    "method": "POST",
+                                    "setPlayIcon": true
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "logicalChannelNumber": 102
+                                            },
+                                            "UI_FunctionName": "performTune",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "events": [
+                                        "ok",
+                                        "play"
+                                    ],
+                                    "nextAction": "onTuneSuccess"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1901&startTime=1741689600000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForInfo",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "info"
+                                }, {
+                                    "event": "localDataSourceLoadedForInfo",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/screens/linearActionMenu?serviceId=1901&startTime=1741689600000&contentId=uri%3Aprg%3A2503111040S1901E065~uri%3Ascd%3A1901%3A2503111040S1901E065%3A11032025104000&classificationId=IVP%3AHome%3AnowOnTv&pageIndex=1&isTsb={isTsb}&lPvrParams={lPvrParams}&assetType=ltv",
+                                    "method": "GET",
+                                    "target": "KActionMenu"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1901&startTime=1741689600000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForOTR",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "record"
+                                }, {
+                                    "actions": [{
+                                            "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/library/otr?serviceId=1901&contentId=uri%3Aprg%3A2503111040S1901E065~uri%3Ascd%3A1901%3A2503111040S1901E065%3A11032025104000&pageIndex=1&startTime=1741689600000&classificationId=IVP%3AHome%3AnowOnTv&logicalChannelNumber=102&lPvrParams={lPvrParams}&keepOriginalFocus=true&backToHubReload=false&roundDown=false",
+                                            "type": "dynamic"
+                                        }
+                                    ],
+                                    "event": "localDataSourceLoadedForOTR"
+                                }
+                            ],
+                            "priceTag": null,
+                            "regularChannelLogo": "http://d1e6y5sqjpmyyr.cloudfront.net/logos/astro/CGTN_v1.png",
+                            "serviceId": "1901",
+                            "shortSynopsis": "SHORT:To push the crime rate below one percent for...",
+                            "showPlayIcon": true,
+                            "startTime": 1741689600000,
+                            "thumbnailAspect": "landscape",
+                            "thumbnailUri": "http://cdn-media.ivpdth.in/Linear/poster640x360_014.jpg",
+                            "title": "A0311S1901E065:SHORT:eng"
+                        }, {
+                            "assetType": "broadcastTv",
+                            "channelName": "Astro_IVP_1902",
+                            "clientSidePVRStatus": true,
+                            "contentId": "",
+                            "duration": 900000,
+                            "iconsString": "",
+                            "isFuture": false,
+                            "labelProgramInfo": "13:45 - 14:00",
+                            "links": [{
+                                    "event": "onTuneSuccess",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/fullScreen/playtv?serviceId=1902&logicalChannelNumber=103&classificationId=IVP%3AHome%3AnowOnTv&currentTime={currentTime}&isTVBlocked={isTVBlocked}&displayInfolayer=true&uiState=fullScreen&goToFullScreen=true&locallyServed=true",
+                                    "method": "POST",
+                                    "setPlayIcon": true
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "logicalChannelNumber": 103
+                                            },
+                                            "UI_FunctionName": "performTune",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "events": [
+                                        "ok",
+                                        "play"
+                                    ],
+                                    "nextAction": "onTuneSuccess"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1902&startTime=1741689900000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForInfo",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "info"
+                                }, {
+                                    "event": "localDataSourceLoadedForInfo",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/screens/linearActionMenu?serviceId=1902&startTime=1741689900000&contentId=uri%3Aprg%3A2503111045S1902E044~uri%3Ascd%3A1902%3A2503111045S1902E044%3A11032025104500&classificationId=IVP%3AHome%3AnowOnTv&pageIndex=1&isTsb={isTsb}&lPvrParams={lPvrParams}&assetType=ltv",
+                                    "method": "GET",
+                                    "target": "KActionMenu"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1902&startTime=1741689900000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForOTR",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "record"
+                                }, {
+                                    "actions": [{
+                                            "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/library/otr?serviceId=1902&contentId=uri%3Aprg%3A2503111045S1902E044~uri%3Ascd%3A1902%3A2503111045S1902E044%3A11032025104500&pageIndex=1&startTime=1741689900000&classificationId=IVP%3AHome%3AnowOnTv&logicalChannelNumber=103&lPvrParams={lPvrParams}&keepOriginalFocus=true&backToHubReload=false&roundDown=false",
+                                            "type": "dynamic"
+                                        }
+                                    ],
+                                    "event": "localDataSourceLoadedForOTR"
+                                }
+                            ],
+                            "priceTag": null,
+                            "regularChannelLogo": "http://d1e6y5sqjpmyyr.cloudfront.net/logos/astro/Baby_TV_v1.png",
+                            "serviceId": "1902",
+                            "shortSynopsis": "SHORT:When an IMF mission ends badly, the world is...",
+                            "showPlayIcon": true,
+                            "startTime": 1741689900000,
+                            "thumbnailAspect": "landscape",
+                            "thumbnailUri": "http://cdn-media.ivpdth.in/Linear/poster640x360_010.jpg",
+                            "title": "O0311S1902E044:SHORT:eng"
+                        }, {
+                            "assetType": "broadcastTv",
+                            "channelName": "Astro_IVP_1903",
+                            "clientSidePVRStatus": true,
+                            "contentId": "",
+                            "duration": 1800000,
+                            "iconsString": "",
+                            "isFuture": false,
+                            "labelProgramInfo": "13:30 - 14:00",
+                            "links": [{
+                                    "event": "onTuneSuccess",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/fullScreen/playtv?serviceId=1903&logicalChannelNumber=104&classificationId=IVP%3AHome%3AnowOnTv&currentTime={currentTime}&isTVBlocked={isTVBlocked}&displayInfolayer=true&uiState=fullScreen&goToFullScreen=true&locallyServed=true",
+                                    "method": "POST",
+                                    "setPlayIcon": true
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "logicalChannelNumber": 104
+                                            },
+                                            "UI_FunctionName": "performTune",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "events": [
+                                        "ok",
+                                        "play"
+                                    ],
+                                    "nextAction": "onTuneSuccess"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1903&startTime=1741689000000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForInfo",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "info"
+                                }, {
+                                    "event": "localDataSourceLoadedForInfo",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/screens/linearActionMenu?serviceId=1903&startTime=1741689000000&contentId=uri%3Aprg%3A2503111030S1903E022~uri%3Ascd%3A1903%3A2503111030S1903E022%3A11032025103000&classificationId=IVP%3AHome%3AnowOnTv&pageIndex=1&isTsb={isTsb}&lPvrParams={lPvrParams}&assetType=ltv",
+                                    "method": "GET",
+                                    "target": "KActionMenu"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1903&startTime=1741689000000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForOTR",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "record"
+                                }, {
+                                    "actions": [{
+                                            "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/library/otr?serviceId=1903&contentId=uri%3Aprg%3A2503111030S1903E022~uri%3Ascd%3A1903%3A2503111030S1903E022%3A11032025103000&pageIndex=1&startTime=1741689000000&classificationId=IVP%3AHome%3AnowOnTv&logicalChannelNumber=104&lPvrParams={lPvrParams}&keepOriginalFocus=true&backToHubReload=false&roundDown=false",
+                                            "type": "dynamic"
+                                        }
+                                    ],
+                                    "event": "localDataSourceLoadedForOTR"
+                                }
+                            ],
+                            "priceTag": null,
+                            "regularChannelLogo": "http://vodasset.s3.ap-south-1.amazonaws.com/beinLogo/beIN_Baraem.png",
+                            "serviceId": "1903",
+                            "shortSynopsis": "SHORT:When an IMF mission ends badly, the world is...",
+                            "showPlayIcon": true,
+                            "startTime": 1741689000000,
+                            "thumbnailAspect": "landscape",
+                            "thumbnailUri": "http://cdn-media.ivpdth.in/Linear/poster640x360_004.jpg",
+                            "title": "Y0311S1903E022:SHORT:eng"
+                        }, {
+                            "assetType": "broadcastTv",
+                            "channelName": "Astro_IVP_1904",
+                            "clientSidePVRStatus": true,
+                            "contentId": "",
+                            "duration": 2700000,
+                            "iconsString": "",
+                            "invertedChannelLogo": "http://d1e6y5sqjpmyyr.cloudfront.net/logos/astro/Celestial_HD_v1.png",
+                            "isFuture": false,
+                            "labelProgramInfo": "13:30 - 14:15",
+                            "links": [{
+                                    "event": "onTuneSuccess",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/fullScreen/playtv?serviceId=1904&logicalChannelNumber=105&classificationId=IVP%3AHome%3AnowOnTv&currentTime={currentTime}&isTVBlocked={isTVBlocked}&displayInfolayer=true&uiState=fullScreen&goToFullScreen=true&locallyServed=true",
+                                    "method": "POST",
+                                    "setPlayIcon": true
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "logicalChannelNumber": 105
+                                            },
+                                            "UI_FunctionName": "performTune",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "events": [
+                                        "ok",
+                                        "play"
+                                    ],
+                                    "nextAction": "onTuneSuccess"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1904&startTime=1741689000000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForInfo",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "info"
+                                }, {
+                                    "event": "localDataSourceLoadedForInfo",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/screens/linearActionMenu?serviceId=1904&startTime=1741689000000&contentId=uri%3Aprg%3A2503111030S1904E015~uri%3Ascd%3A1904%3A2503111030S1904E015%3A11032025103000&classificationId=IVP%3AHome%3AnowOnTv&pageIndex=1&isTsb={isTsb}&lPvrParams={lPvrParams}&assetType=ltv",
+                                    "method": "GET",
+                                    "target": "KActionMenu"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1904&startTime=1741689000000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForOTR",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "record"
+                                }, {
+                                    "actions": [{
+                                            "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/library/otr?serviceId=1904&contentId=uri%3Aprg%3A2503111030S1904E015~uri%3Ascd%3A1904%3A2503111030S1904E015%3A11032025103000&pageIndex=1&startTime=1741689000000&classificationId=IVP%3AHome%3AnowOnTv&logicalChannelNumber=105&lPvrParams={lPvrParams}&keepOriginalFocus=true&backToHubReload=false&roundDown=false",
+                                            "type": "dynamic"
+                                        }
+                                    ],
+                                    "event": "localDataSourceLoadedForOTR"
+                                }
+                            ],
+                            "priceTag": null,
+                            "regularChannelLogo": "http://d1e6y5sqjpmyyr.cloudfront.net/logos/astro/Celestial_HD_v1.png",
+                            "serviceId": "1904",
+                            "shortSynopsis": "SHORT:Three years after the demise of Jurassic...",
+                            "showPlayIcon": true,
+                            "startTime": 1741689000000,
+                            "thumbnailAspect": "landscape",
+                            "thumbnailUri": "http://cdn-media.ivpdth.in/Linear/poster640x360_013.jpg",
+                            "title": "Y0311S1904E015:SHORT:eng"
+                        }
+                    ],
+                    "swimlaneType": "landscapeType1"
+                }, {
+                    "items": [{
+                            "assetType": "broadcastTv",
+                            "channelName": "Astro_IVP_1905",
+                            "clientSidePVRStatus": true,
+                            "contentId": "",
+                            "duration": 600000,
+                            "iconsString": "",
+                            "isFuture": false,
+                            "labelProgramInfo": "13:40 - 13:50",
+                            "links": [{
+                                    "event": "onTuneSuccess",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/fullScreen/playtv?serviceId=1905&logicalChannelNumber=107&classificationId=IVP%3AHome%3AnowOnTv&currentTime={currentTime}&isTVBlocked={isTVBlocked}&displayInfolayer=true&uiState=fullScreen&goToFullScreen=true&locallyServed=true",
+                                    "method": "POST",
+                                    "setPlayIcon": true
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "logicalChannelNumber": 107
+                                            },
+                                            "UI_FunctionName": "performTune",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "events": [
+                                        "ok",
+                                        "play"
+                                    ],
+                                    "nextAction": "onTuneSuccess"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1905&startTime=1741689600000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForInfo",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "info"
+                                }, {
+                                    "event": "localDataSourceLoadedForInfo",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/screens/linearActionMenu?serviceId=1905&startTime=1741689600000&contentId=uri%3Aprg%3A2503111040S1905E065~uri%3Ascd%3A1905%3A2503111040S1905E065%3A11032025104000&classificationId=IVP%3AHome%3AnowOnTv&pageIndex=1&isTsb={isTsb}&lPvrParams={lPvrParams}&assetType=ltv",
+                                    "method": "GET",
+                                    "target": "KActionMenu"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1905&startTime=1741689600000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForOTR",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "record"
+                                }, {
+                                    "actions": [{
+                                            "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/library/otr?serviceId=1905&contentId=uri%3Aprg%3A2503111040S1905E065~uri%3Ascd%3A1905%3A2503111040S1905E065%3A11032025104000&pageIndex=1&startTime=1741689600000&classificationId=IVP%3AHome%3AnowOnTv&logicalChannelNumber=107&lPvrParams={lPvrParams}&keepOriginalFocus=true&backToHubReload=false&roundDown=false",
+                                            "type": "dynamic"
+                                        }
+                                    ],
+                                    "event": "localDataSourceLoadedForOTR"
+                                }
+                            ],
+                            "priceTag": null,
+                            "regularChannelLogo": "http://d1e6y5sqjpmyyr.cloudfront.net/logos/astro/Chutti_TV_v1.png",
+                            "serviceId": "1905",
+                            "shortSynopsis": "SHORT:As Scott Lang awaits expiration of his term of...",
+                            "showPlayIcon": true,
+                            "startTime": 1741689600000,
+                            "thumbnailAspect": "landscape",
+                            "thumbnailUri": "http://cdn-media.ivpdth.in/Linear/poster640x360_011.jpg",
+                            "title": "A0311S1905E065:SHORT:eng"
+                        }, {
+                            "assetType": "broadcastTv",
+                            "channelName": "Astro_IVP_1906",
+                            "clientSidePVRStatus": true,
+                            "contentId": "",
+                            "duration": 900000,
+                            "iconsString": "",
+                            "invertedChannelLogo": "http://d1e6y5sqjpmyyr.cloudfront.net/logos/astro/Comedy-Central_v1.png",
+                            "isFuture": false,
+                            "labelProgramInfo": "13:45 - 14:00",
+                            "links": [{
+                                    "event": "onTuneSuccess",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/fullScreen/playtv?serviceId=1906&logicalChannelNumber=108&classificationId=IVP%3AHome%3AnowOnTv&currentTime={currentTime}&isTVBlocked={isTVBlocked}&displayInfolayer=true&uiState=fullScreen&goToFullScreen=true&locallyServed=true",
+                                    "method": "POST",
+                                    "setPlayIcon": true
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "logicalChannelNumber": 108
+                                            },
+                                            "UI_FunctionName": "performTune",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "events": [
+                                        "ok",
+                                        "play"
+                                    ],
+                                    "nextAction": "onTuneSuccess"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1906&startTime=1741689900000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForInfo",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "info"
+                                }, {
+                                    "event": "localDataSourceLoadedForInfo",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/screens/linearActionMenu?serviceId=1906&startTime=1741689900000&contentId=uri%3Aprg%3A2503111045S1906E044~uri%3Ascd%3A1906%3A2503111045S1906E044%3A11032025104500&classificationId=IVP%3AHome%3AnowOnTv&pageIndex=1&isTsb={isTsb}&lPvrParams={lPvrParams}&assetType=ltv",
+                                    "method": "GET",
+                                    "target": "KActionMenu"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1906&startTime=1741689900000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForOTR",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "record"
+                                }, {
+                                    "actions": [{
+                                            "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/library/otr?serviceId=1906&contentId=uri%3Aprg%3A2503111045S1906E044~uri%3Ascd%3A1906%3A2503111045S1906E044%3A11032025104500&pageIndex=1&startTime=1741689900000&classificationId=IVP%3AHome%3AnowOnTv&logicalChannelNumber=108&lPvrParams={lPvrParams}&keepOriginalFocus=true&backToHubReload=false&roundDown=false",
+                                            "type": "dynamic"
+                                        }
+                                    ],
+                                    "event": "localDataSourceLoadedForOTR"
+                                }
+                            ],
+                            "priceTag": null,
+                            "regularChannelLogo": "http://d1e6y5sqjpmyyr.cloudfront.net/logos/astro/Comedy-Central_v1.png",
+                            "serviceId": "1906",
+                            "shortSynopsis": "SHORT:From the outer reaches of space to the...",
+                            "showPlayIcon": true,
+                            "startTime": 1741689900000,
+                            "thumbnailAspect": "landscape",
+                            "thumbnailUri": "http://cdn-media.ivpdth.in/Linear/poster640x360_001.jpg",
+                            "title": "O0311S1906E044:SHORT:eng"
+                        }, {
+                            "assetType": "broadcastTv",
+                            "channelName": "Astro_IVP_1907",
+                            "clientSidePVRStatus": true,
+                            "contentId": "",
+                            "duration": 1800000,
+                            "iconsString": "",
+                            "isFuture": false,
+                            "labelProgramInfo": "13:30 - 14:00",
+                            "links": [{
+                                    "event": "onTuneSuccess",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/fullScreen/playtv?serviceId=1907&logicalChannelNumber=109&classificationId=IVP%3AHome%3AnowOnTv&currentTime={currentTime}&isTVBlocked={isTVBlocked}&displayInfolayer=true&uiState=fullScreen&goToFullScreen=true&locallyServed=true",
+                                    "method": "POST",
+                                    "setPlayIcon": true
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "logicalChannelNumber": 109
+                                            },
+                                            "UI_FunctionName": "performTune",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "events": [
+                                        "ok",
+                                        "play"
+                                    ],
+                                    "nextAction": "onTuneSuccess"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1907&startTime=1741689000000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForInfo",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "info"
+                                }, {
+                                    "event": "localDataSourceLoadedForInfo",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/screens/linearActionMenu?serviceId=1907&startTime=1741689000000&contentId=uri%3Aprg%3A2503111030S1907E022~uri%3Ascd%3A1907%3A2503111030S1907E022%3A11032025103000&classificationId=IVP%3AHome%3AnowOnTv&pageIndex=1&isTsb={isTsb}&lPvrParams={lPvrParams}&assetType=ltv",
+                                    "method": "GET",
+                                    "target": "KActionMenu"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1907&startTime=1741689000000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForOTR",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "record"
+                                }, {
+                                    "actions": [{
+                                            "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/library/otr?serviceId=1907&contentId=uri%3Aprg%3A2503111030S1907E022~uri%3Ascd%3A1907%3A2503111030S1907E022%3A11032025103000&pageIndex=1&startTime=1741689000000&classificationId=IVP%3AHome%3AnowOnTv&logicalChannelNumber=109&lPvrParams={lPvrParams}&keepOriginalFocus=true&backToHubReload=false&roundDown=false",
+                                            "type": "dynamic"
+                                        }
+                                    ],
+                                    "event": "localDataSourceLoadedForOTR"
+                                }
+                            ],
+                            "priceTag": null,
+                            "regularChannelLogo": "http://d1e6y5sqjpmyyr.cloudfront.net/logos/astro/Cti_v1.png",
+                            "serviceId": "1907",
+                            "shortSynopsis": "SHORT:When an IMF mission ends badly, the world is...",
+                            "showPlayIcon": true,
+                            "startTime": 1741689000000,
+                            "thumbnailAspect": "landscape",
+                            "thumbnailUri": "http://cdn-media.ivpdth.in/Linear/poster640x360_014.jpg",
+                            "title": "Y0311S1907E022:SHORT:eng"
+                        }, {
+                            "assetType": "broadcastTv",
+                            "channelName": "Astro_IVP_1908",
+                            "clientSidePVRStatus": true,
+                            "contentId": "",
+                            "duration": 2700000,
+                            "iconsString": "",
+                            "isFuture": false,
+                            "labelProgramInfo": "13:30 - 14:15",
+                            "links": [{
+                                    "event": "onTuneSuccess",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/fullScreen/playtv?serviceId=1908&logicalChannelNumber=110&classificationId=IVP%3AHome%3AnowOnTv&currentTime={currentTime}&isTVBlocked={isTVBlocked}&displayInfolayer=true&uiState=fullScreen&goToFullScreen=true&locallyServed=true",
+                                    "method": "POST",
+                                    "setPlayIcon": true
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "logicalChannelNumber": 110
+                                            },
+                                            "UI_FunctionName": "performTune",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "events": [
+                                        "ok",
+                                        "play"
+                                    ],
+                                    "nextAction": "onTuneSuccess"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1908&startTime=1741689000000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForInfo",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "info"
+                                }, {
+                                    "event": "localDataSourceLoadedForInfo",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/screens/linearActionMenu?serviceId=1908&startTime=1741689000000&contentId=uri%3Aprg%3A2503111030S1908E015~uri%3Ascd%3A1908%3A2503111030S1908E015%3A11032025103000&classificationId=IVP%3AHome%3AnowOnTv&pageIndex=1&isTsb={isTsb}&lPvrParams={lPvrParams}&assetType=ltv",
+                                    "method": "GET",
+                                    "target": "KActionMenu"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1908&startTime=1741689000000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForOTR",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "record"
+                                }, {
+                                    "actions": [{
+                                            "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/library/otr?serviceId=1908&contentId=uri%3Aprg%3A2503111030S1908E015~uri%3Ascd%3A1908%3A2503111030S1908E015%3A11032025103000&pageIndex=1&startTime=1741689000000&classificationId=IVP%3AHome%3AnowOnTv&logicalChannelNumber=110&lPvrParams={lPvrParams}&keepOriginalFocus=true&backToHubReload=false&roundDown=false",
+                                            "type": "dynamic"
+                                        }
+                                    ],
+                                    "event": "localDataSourceLoadedForOTR"
+                                }
+                            ],
+                            "priceTag": null,
+                            "regularChannelLogo": "http://d1e6y5sqjpmyyr.cloudfront.net/logos/astro/DMAX_v1.png",
+                            "serviceId": "1908",
+                            "shortSynopsis": "SHORT:  Thor is on the other side of the universe...",
+                            "showPlayIcon": true,
+                            "startTime": 1741689000000,
+                            "thumbnailAspect": "landscape",
+                            "thumbnailUri": "http://cdn-media.ivpdth.in/Linear/poster640x360_010.jpg",
+                            "title": "Y0311S1908E015:SHORT:eng"
+                        }
+                    ],
+                    "swimlaneType": "landscapeType1"
+                }, {
+                    "items": [{
+                            "assetType": "broadcastTv",
+                            "channelName": "Astro_IVP_1960",
+                            "clientSidePVRStatus": true,
+                            "contentId": "",
+                            "duration": 600000,
+                            "iconsString": "",
+                            "invertedChannelLogo": "http://d1e6y5sqjpmyyr.cloudfront.net/logos/astro/Minnal-FM_v1.png",
+                            "isFuture": false,
+                            "labelProgramInfo": "13:40 - 13:50",
+                            "links": [{
+                                    "event": "onTuneSuccess",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/fullScreen/playtv?serviceId=1960&logicalChannelNumber=111&classificationId=IVP%3AHome%3AnowOnTv&currentTime={currentTime}&isTVBlocked={isTVBlocked}&displayInfolayer=true&uiState=fullScreen&goToFullScreen=true&locallyServed=true",
+                                    "method": "POST",
+                                    "setPlayIcon": true
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "logicalChannelNumber": 111
+                                            },
+                                            "UI_FunctionName": "performTune",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "events": [
+                                        "ok",
+                                        "play"
+                                    ],
+                                    "nextAction": "onTuneSuccess"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1960&startTime=1741689600000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForInfo",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "info"
+                                }, {
+                                    "event": "localDataSourceLoadedForInfo",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/screens/linearActionMenu?serviceId=1960&startTime=1741689600000&contentId=uri%3Aprg%3A2503111040S1960E065~uri%3Ascd%3A1960%3A2503111040S1960E065%3A11032025104000&classificationId=IVP%3AHome%3AnowOnTv&pageIndex=1&isTsb={isTsb}&lPvrParams={lPvrParams}&assetType=ltv",
+                                    "method": "GET",
+                                    "target": "KActionMenu"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1960&startTime=1741689600000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForOTR",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "record"
+                                }, {
+                                    "actions": [{
+                                            "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/library/otr?serviceId=1960&contentId=uri%3Aprg%3A2503111040S1960E065~uri%3Ascd%3A1960%3A2503111040S1960E065%3A11032025104000&pageIndex=1&startTime=1741689600000&classificationId=IVP%3AHome%3AnowOnTv&logicalChannelNumber=111&lPvrParams={lPvrParams}&keepOriginalFocus=true&backToHubReload=false&roundDown=false",
+                                            "type": "dynamic"
+                                        }
+                                    ],
+                                    "event": "localDataSourceLoadedForOTR"
+                                }
+                            ],
+                            "priceTag": null,
+                            "regularChannelLogo": "http://d1e6y5sqjpmyyr.cloudfront.net/logos/astro/Minnal-FM_v1.png",
+                            "serviceId": "1960",
+                            "shortSynopsis": "SHORT:Through a series of daring escapades deep...",
+                            "showPlayIcon": true,
+                            "startTime": 1741689600000,
+                            "thumbnailAspect": "landscape",
+                            "thumbnailUri": "http://cdn-media.ivpdth.in/Linear/poster640x360_006.jpg",
+                            "title": "A0311S1960E065:SHORT:eng"
+                        }, {
+                            "assetType": "broadcastTv",
+                            "channelName": "Astro_IVP_1910",
+                            "clientSidePVRStatus": true,
+                            "contentId": "",
+                            "duration": 900000,
+                            "iconsString": "",
+                            "isFuture": false,
+                            "labelProgramInfo": "13:45 - 14:00",
+                            "links": [{
+                                    "event": "onTuneSuccess",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/fullScreen/playtv?serviceId=1910&logicalChannelNumber=112&classificationId=IVP%3AHome%3AnowOnTv&currentTime={currentTime}&isTVBlocked={isTVBlocked}&displayInfolayer=true&uiState=fullScreen&goToFullScreen=true&locallyServed=true",
+                                    "method": "POST",
+                                    "setPlayIcon": true
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "logicalChannelNumber": 112
+                                            },
+                                            "UI_FunctionName": "performTune",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "events": [
+                                        "ok",
+                                        "play"
+                                    ],
+                                    "nextAction": "onTuneSuccess"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1910&startTime=1741689900000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForInfo",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "info"
+                                }, {
+                                    "event": "localDataSourceLoadedForInfo",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/screens/linearActionMenu?serviceId=1910&startTime=1741689900000&contentId=uri%3Aprg%3A2503111045S1910E044~uri%3Ascd%3A1910%3A2503111045S1910E044%3A11032025104500&classificationId=IVP%3AHome%3AnowOnTv&pageIndex=1&isTsb={isTsb}&lPvrParams={lPvrParams}&assetType=ltv",
+                                    "method": "GET",
+                                    "target": "KActionMenu"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1910&startTime=1741689900000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForOTR",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "record"
+                                }, {
+                                    "actions": [{
+                                            "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/library/otr?serviceId=1910&contentId=uri%3Aprg%3A2503111045S1910E044~uri%3Ascd%3A1910%3A2503111045S1910E044%3A11032025104500&pageIndex=1&startTime=1741689900000&classificationId=IVP%3AHome%3AnowOnTv&logicalChannelNumber=112&lPvrParams={lPvrParams}&keepOriginalFocus=true&backToHubReload=false&roundDown=false",
+                                            "type": "dynamic"
+                                        }
+                                    ],
+                                    "event": "localDataSourceLoadedForOTR"
+                                }
+                            ],
+                            "priceTag": null,
+                            "regularChannelLogo": "http://d1e6y5sqjpmyyr.cloudfront.net/logos/astro/Discovery_Science_v1.png",
+                            "serviceId": "1910",
+                            "shortSynopsis": "SHORT: Rey develops her newly discovered abilities...",
+                            "showPlayIcon": true,
+                            "startTime": 1741689900000,
+                            "thumbnailAspect": "landscape",
+                            "thumbnailUri": "http://cdn-media.ivpdth.in/Linear/poster640x360_005.jpg",
+                            "title": "O0311S1910E044:SHORT:eng"
+                        }, {
+                            "assetType": "broadcastTv",
+                            "channelName": "Astro_IVP_1911",
+                            "clientSidePVRStatus": true,
+                            "contentId": "",
+                            "duration": 1800000,
+                            "iconsString": "",
+                            "isFuture": false,
+                            "labelProgramInfo": "13:30 - 14:00",
+                            "links": [{
+                                    "event": "onTuneSuccess",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/fullScreen/playtv?serviceId=1911&logicalChannelNumber=113&classificationId=IVP%3AHome%3AnowOnTv&currentTime={currentTime}&isTVBlocked={isTVBlocked}&displayInfolayer=true&uiState=fullScreen&goToFullScreen=true&locallyServed=true",
+                                    "method": "POST",
+                                    "setPlayIcon": true
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "logicalChannelNumber": 113
+                                            },
+                                            "UI_FunctionName": "performTune",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "events": [
+                                        "ok",
+                                        "play"
+                                    ],
+                                    "nextAction": "onTuneSuccess"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1911&startTime=1741689000000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForInfo",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "info"
+                                }, {
+                                    "event": "localDataSourceLoadedForInfo",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/screens/linearActionMenu?serviceId=1911&startTime=1741689000000&contentId=uri%3Aprg%3A2503111030S1911E022~uri%3Ascd%3A1911%3A2503111030S1911E022%3A11032025103000&classificationId=IVP%3AHome%3AnowOnTv&pageIndex=1&isTsb={isTsb}&lPvrParams={lPvrParams}&assetType=ltv",
+                                    "method": "GET",
+                                    "target": "KActionMenu"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1911&startTime=1741689000000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForOTR",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "record"
+                                }, {
+                                    "actions": [{
+                                            "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/library/otr?serviceId=1911&contentId=uri%3Aprg%3A2503111030S1911E022~uri%3Ascd%3A1911%3A2503111030S1911E022%3A11032025103000&pageIndex=1&startTime=1741689000000&classificationId=IVP%3AHome%3AnowOnTv&logicalChannelNumber=113&lPvrParams={lPvrParams}&keepOriginalFocus=true&backToHubReload=false&roundDown=false",
+                                            "type": "dynamic"
+                                        }
+                                    ],
+                                    "event": "localDataSourceLoadedForOTR"
+                                }
+                            ],
+                            "priceTag": null,
+                            "regularChannelLogo": "http://d1e6y5sqjpmyyr.cloudfront.net/logos/astro/DW_v1.png",
+                            "serviceId": "1911",
+                            "shortSynopsis": "SHORT:From the outer reaches of space to the...",
+                            "showPlayIcon": true,
+                            "startTime": 1741689000000,
+                            "thumbnailAspect": "landscape",
+                            "thumbnailUri": "http://cdn-media.ivpdth.in/Linear/poster640x360_014.jpg",
+                            "title": "Y0311S1911E022:SHORT:eng"
+                        }, {
+                            "assetType": "broadcastTv",
+                            "channelName": "Astro_IVP_1912",
+                            "clientSidePVRStatus": true,
+                            "contentId": "",
+                            "duration": 2700000,
+                            "iconsString": "",
+                            "isFuture": false,
+                            "labelProgramInfo": "13:30 - 14:15",
+                            "links": [{
+                                    "event": "onTuneSuccess",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/fullScreen/playtv?serviceId=1912&logicalChannelNumber=114&classificationId=IVP%3AHome%3AnowOnTv&currentTime={currentTime}&isTVBlocked={isTVBlocked}&displayInfolayer=true&uiState=fullScreen&goToFullScreen=true&locallyServed=true",
+                                    "method": "POST",
+                                    "setPlayIcon": true
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "logicalChannelNumber": 114
+                                            },
+                                            "UI_FunctionName": "performTune",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "events": [
+                                        "ok",
+                                        "play"
+                                    ],
+                                    "nextAction": "onTuneSuccess"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1912&startTime=1741689000000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForInfo",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "info"
+                                }, {
+                                    "event": "localDataSourceLoadedForInfo",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/screens/linearActionMenu?serviceId=1912&startTime=1741689000000&contentId=uri%3Aprg%3A2503111030S1912E015~uri%3Ascd%3A1912%3A2503111030S1912E015%3A11032025103000&classificationId=IVP%3AHome%3AnowOnTv&pageIndex=1&isTsb={isTsb}&lPvrParams={lPvrParams}&assetType=ltv",
+                                    "method": "GET",
+                                    "target": "KActionMenu"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1912&startTime=1741689000000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForOTR",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "record"
+                                }, {
+                                    "actions": [{
+                                            "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/library/otr?serviceId=1912&contentId=uri%3Aprg%3A2503111030S1912E015~uri%3Ascd%3A1912%3A2503111030S1912E015%3A11032025103000&pageIndex=1&startTime=1741689000000&classificationId=IVP%3AHome%3AnowOnTv&logicalChannelNumber=114&lPvrParams={lPvrParams}&keepOriginalFocus=true&backToHubReload=false&roundDown=false",
+                                            "type": "dynamic"
+                                        }
+                                    ],
+                                    "event": "localDataSourceLoadedForOTR"
+                                }
+                            ],
+                            "logotagText": "Subscribe",
+                            "priceTag": null,
+                            "regularChannelLogo": "http://d1e6y5sqjpmyyr.cloudfront.net/logos/astro/Cinemax_v1.png",
+                            "serviceId": "1912",
+                            "shortSynopsis": "SHORT:From the outer reaches of space to the...",
+                            "showPlayIcon": true,
+                            "startTime": 1741689000000,
+                            "thumbnailAspect": "landscape",
+                            "thumbnailUri": "http://cdn-media.ivpdth.in/Linear/poster640x360_010.jpg",
+                            "title": "Y0311S1912E015:SHORT:eng"
+                        }
+                    ],
+                    "swimlaneType": "landscapeType1"
+                }, {
+                    "items": [{
+                            "assetType": "broadcastTv",
+                            "channelName": "Astro_IVP_1913",
+                            "clientSidePVRStatus": true,
+                            "contentId": "",
+                            "duration": 600000,
+                            "iconsString": " ",
+                            "isFuture": false,
+                            "labelProgramInfo": "13:40 - 13:50",
+                            "links": [{
+                                    "event": "onTuneSuccess",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/fullScreen/playtv?serviceId=1913&logicalChannelNumber=115&classificationId=IVP%3AHome%3AnowOnTv&currentTime={currentTime}&isTVBlocked={isTVBlocked}&displayInfolayer=true&uiState=fullScreen&goToFullScreen=true&locallyServed=true",
+                                    "method": "POST",
+                                    "setPlayIcon": true
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "logicalChannelNumber": 115
+                                            },
+                                            "UI_FunctionName": "performTune",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "events": [
+                                        "ok",
+                                        "play"
+                                    ],
+                                    "nextAction": "onTuneSuccess"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1913&startTime=1741689600000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForInfo",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "info"
+                                }, {
+                                    "event": "localDataSourceLoadedForInfo",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/screens/linearActionMenu?serviceId=1913&startTime=1741689600000&contentId=uri%3Aprg%3A2503111040S1913E065~uri%3Ascd%3A1913%3A2503111040S1913E065%3A11032025104000&classificationId=IVP%3AHome%3AnowOnTv&pageIndex=1&isTsb={isTsb}&lPvrParams={lPvrParams}&assetType=ltv",
+                                    "method": "GET",
+                                    "target": "KActionMenu"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1913&startTime=1741689600000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForOTR",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "record"
+                                }, {
+                                    "actions": [{
+                                            "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/library/otr?serviceId=1913&contentId=uri%3Aprg%3A2503111040S1913E065~uri%3Ascd%3A1913%3A2503111040S1913E065%3A11032025104000&pageIndex=1&startTime=1741689600000&classificationId=IVP%3AHome%3AnowOnTv&logicalChannelNumber=115&lPvrParams={lPvrParams}&keepOriginalFocus=true&backToHubReload=false&roundDown=false",
+                                            "type": "dynamic"
+                                        }
+                                    ],
+                                    "event": "localDataSourceLoadedForOTR"
+                                }
+                            ],
+                            "priceTag": null,
+                            "regularChannelLogo": "http://d1e6y5sqjpmyyr.cloudfront.net/logos/astro/Colors_v1.png",
+                            "serviceId": "1913",
+                            "shortSynopsis": "SHORT: Rey develops her newly discovered abilities...",
+                            "showPlayIcon": true,
+                            "startTime": 1741689600000,
+                            "thumbnailAspect": "landscape",
+                            "thumbnailUri": "http://cdn-media.ivpdth.in/Linear/poster640x360_004.jpg",
+                            "title": "A0311S1913E065:SHORT:eng"
+                        }, {
+                            "assetType": "broadcastTv",
+                            "channelName": "Sabarmati Channel",
+                            "clientSidePVRStatus": true,
+                            "contentId": "",
+                            "duration": 900000,
+                            "iconsString": "  ",
+                            "isFuture": false,
+                            "labelProgramInfo": "13:45 - 14:00",
+                            "links": [{
+                                    "event": "onTuneSuccess",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/fullScreen/playtv?serviceId=118&logicalChannelNumber=118&classificationId=IVP%3AHome%3AnowOnTv&currentTime={currentTime}&isTVBlocked={isTVBlocked}&displayInfolayer=true&uiState=fullScreen&goToFullScreen=true&locallyServed=true",
+                                    "method": "POST",
+                                    "setPlayIcon": true
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "logicalChannelNumber": 118
+                                            },
+                                            "UI_FunctionName": "performTune",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "events": [
+                                        "ok",
+                                        "play"
+                                    ],
+                                    "nextAction": "onTuneSuccess"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=118&startTime=1741689900000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForInfo",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "info"
+                                }, {
+                                    "event": "localDataSourceLoadedForInfo",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/screens/linearActionMenu?serviceId=118&startTime=1741689900000&contentId=uri%3Aprg%3A2503111045S118E044~uri%3Ascd%3A118%3A2503111045S118E044%3A11032025104500&classificationId=IVP%3AHome%3AnowOnTv&pageIndex=1&isTsb={isTsb}&lPvrParams={lPvrParams}&assetType=ltv",
+                                    "method": "GET",
+                                    "target": "KActionMenu"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=118&startTime=1741689900000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForOTR",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "record"
+                                }, {
+                                    "actions": [{
+                                            "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/library/otr?serviceId=118&contentId=uri%3Aprg%3A2503111045S118E044~uri%3Ascd%3A118%3A2503111045S118E044%3A11032025104500&pageIndex=1&startTime=1741689900000&classificationId=IVP%3AHome%3AnowOnTv&logicalChannelNumber=118&lPvrParams={lPvrParams}&keepOriginalFocus=true&backToHubReload=false&roundDown=false",
+                                            "type": "dynamic"
+                                        }
+                                    ],
+                                    "event": "localDataSourceLoadedForOTR"
+                                }
+                            ],
+                            "priceTag": null,
+                            "regularChannelLogo": "https://vodasset.s3.ap-south-1.amazonaws.com/beinLogo/beIN_connect.png",
+                            "serviceId": "118",
+                            "shortSynopsis": "SHORT:From the outer reaches of space to the...",
+                            "showPlayIcon": true,
+                            "startTime": 1741689900000,
+                            "thumbnailAspect": "landscape",
+                            "thumbnailUri": "http://cdn-media.ivpdth.in/Linear/poster640x360_002.jpg",
+                            "title": "S1C118D1103044:SHORT:eng EP1"
+                        }, {
+                            "assetType": "broadcastTv",
+                            "channelName": "Astro_IVP_1914",
+                            "clientSidePVRStatus": true,
+                            "contentId": "",
+                            "duration": 10800000,
+                            "iconsString": "",
+                            "isFuture": false,
+                            "labelProgramInfo": "12:00 - 15:00",
+                            "links": [{
+                                    "event": "onTuneSuccess",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/fullScreen/playtv?serviceId=1914&logicalChannelNumber=119&classificationId=IVP%3AHome%3AnowOnTv&currentTime={currentTime}&isTVBlocked={isTVBlocked}&displayInfolayer=true&uiState=fullScreen&goToFullScreen=true&locallyServed=true",
+                                    "method": "POST",
+                                    "setPlayIcon": true
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "logicalChannelNumber": 119
+                                            },
+                                            "UI_FunctionName": "performTune",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "events": [
+                                        "ok",
+                                        "play"
+                                    ],
+                                    "nextAction": "onTuneSuccess"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1914&startTime=1741683600000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForInfo",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "info"
+                                }, {
+                                    "event": "localDataSourceLoadedForInfo",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/screens/linearActionMenu?serviceId=1914&startTime=1741683600000&contentId=uri%3Aprg%3A2503110900S1914E004~uri%3Ascd%3A1914%3A2503110900S1914E004%3A11032025090000&classificationId=IVP%3AHome%3AnowOnTv&pageIndex=1&isTsb={isTsb}&lPvrParams={lPvrParams}&assetType=ltv",
+                                    "method": "GET",
+                                    "target": "KActionMenu"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1914&startTime=1741683600000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForOTR",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "record"
+                                }, {
+                                    "actions": [{
+                                            "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/library/otr?serviceId=1914&contentId=uri%3Aprg%3A2503110900S1914E004~uri%3Ascd%3A1914%3A2503110900S1914E004%3A11032025090000&pageIndex=1&startTime=1741683600000&classificationId=IVP%3AHome%3AnowOnTv&logicalChannelNumber=119&lPvrParams={lPvrParams}&keepOriginalFocus=true&backToHubReload=false&roundDown=false",
+                                            "type": "dynamic"
+                                        }
+                                    ],
+                                    "event": "localDataSourceLoadedForOTR"
+                                }
+                            ],
+                            "priceTag": null,
+                            "regularChannelLogo": "http://d1e6y5sqjpmyyr.cloudfront.net/logos/astro/DisneyXD_v1.png",
+                            "serviceId": "1914",
+                            "shortSynopsis": "SHORT: When Tony Stark tries to jumpstart a dormant...",
+                            "showPlayIcon": true,
+                            "startTime": 1741683600000,
+                            "thumbnailAspect": "landscape",
+                            "thumbnailUri": "http://cdn-media.ivpdth.in/Linear/poster640x360_012.jpg",
+                            "title": "G0311S1914E004:SHORT:eng"
+                        }, {
+                            "assetType": "broadcastTv",
+                            "channelName": "Astro_IVP_1961",
+                            "clientSidePVRStatus": true,
+                            "contentId": "",
+                            "duration": 300000,
+                            "iconsString": "",
+                            "invertedChannelLogo": "http://d1e6y5sqjpmyyr.cloudfront.net/logos/astro/ONE_HD_v1.png",
+                            "isFuture": false,
+                            "labelProgramInfo": "13:45 - 13:50",
+                            "links": [{
+                                    "event": "onTuneSuccess",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/fullScreen/playtv?serviceId=1961&logicalChannelNumber=133&classificationId=IVP%3AHome%3AnowOnTv&currentTime={currentTime}&isTVBlocked={isTVBlocked}&displayInfolayer=true&uiState=fullScreen&goToFullScreen=true&locallyServed=true",
+                                    "method": "POST",
+                                    "setPlayIcon": true
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "logicalChannelNumber": 133
+                                            },
+                                            "UI_FunctionName": "performTune",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "events": [
+                                        "ok",
+                                        "play"
+                                    ],
+                                    "nextAction": "onTuneSuccess"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1961&startTime=1741689900000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForInfo",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "info"
+                                }, {
+                                    "event": "localDataSourceLoadedForInfo",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/screens/linearActionMenu?serviceId=1961&startTime=1741689900000&contentId=uri%3Aprg%3A2503111045S1961E130~uri%3Ascd%3A1961%3A2503111045S1961E130%3A11032025104500&classificationId=IVP%3AHome%3AnowOnTv&pageIndex=1&isTsb={isTsb}&lPvrParams={lPvrParams}&assetType=ltv",
+                                    "method": "GET",
+                                    "target": "KActionMenu"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=1961&startTime=1741689900000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForOTR",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "record"
+                                }, {
+                                    "actions": [{
+                                            "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/library/otr?serviceId=1961&contentId=uri%3Aprg%3A2503111045S1961E130~uri%3Ascd%3A1961%3A2503111045S1961E130%3A11032025104500&pageIndex=1&startTime=1741689900000&classificationId=IVP%3AHome%3AnowOnTv&logicalChannelNumber=133&lPvrParams={lPvrParams}&keepOriginalFocus=true&backToHubReload=false&roundDown=false",
+                                            "type": "dynamic"
+                                        }
+                                    ],
+                                    "event": "localDataSourceLoadedForOTR"
+                                }
+                            ],
+                            "priceTag": null,
+                            "regularChannelLogo": "http://d1e6y5sqjpmyyr.cloudfront.net/logos/astro/ONE_HD_v1.png",
+                            "serviceId": "1961",
+                            "shortSynopsis": "SHORT:From the outer reaches of space to the...",
+                            "showPlayIcon": true,
+                            "startTime": 1741689900000,
+                            "thumbnailAspect": "landscape",
+                            "thumbnailUri": "http://cdn-media.ivpdth.in/Linear/poster640x360_013.jpg",
+                            "title": "O0311S1961E130:SHORT:eng"
+                        }
+                    ],
+                    "swimlaneType": "landscapeType1"
+                }, {
+                    "items": [{
+                            "assetType": "broadcastTv",
+                            "channelName": "Astro_IVP_51",
+                            "clientSidePVRStatus": true,
+                            "contentId": "",
+                            "duration": 900000,
+                            "iconsString": " ",
+                            "invertedChannelLogo": "http://d1e6y5sqjpmyyr.cloudfront.net/logos/astro/Aniplus_v1.png",
+                            "isFuture": false,
+                            "labelProgramInfo": "13:45 - 14:00",
+                            "links": [{
+                                    "event": "onTuneSuccess",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/fullScreen/playtv?serviceId=51&logicalChannelNumber=151&classificationId=IVP%3AHome%3AnowOnTv&currentTime={currentTime}&isTVBlocked={isTVBlocked}&displayInfolayer=true&uiState=fullScreen&goToFullScreen=true&locallyServed=true",
+                                    "method": "POST",
+                                    "setPlayIcon": true
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "logicalChannelNumber": 151
+                                            },
+                                            "UI_FunctionName": "performTune",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "events": [
+                                        "ok",
+                                        "play"
+                                    ],
+                                    "nextAction": "onTuneSuccess"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=51&startTime=1741689900000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForInfo",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "info"
+                                }, {
+                                    "event": "localDataSourceLoadedForInfo",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/screens/linearActionMenu?serviceId=51&startTime=1741689900000&contentId=uri%3Aprg%3A2503111045S51E044~uri%3Ascd%3A51%3A2503111045S51E044%3A11032025104500&classificationId=IVP%3AHome%3AnowOnTv&pageIndex=1&isTsb={isTsb}&lPvrParams={lPvrParams}&assetType=ltv",
+                                    "method": "GET",
+                                    "target": "KActionMenu"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=51&startTime=1741689900000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForOTR",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "record"
+                                }, {
+                                    "actions": [{
+                                            "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/library/otr?serviceId=51&contentId=uri%3Aprg%3A2503111045S51E044~uri%3Ascd%3A51%3A2503111045S51E044%3A11032025104500&pageIndex=1&startTime=1741689900000&classificationId=IVP%3AHome%3AnowOnTv&logicalChannelNumber=151&lPvrParams={lPvrParams}&keepOriginalFocus=true&backToHubReload=false&roundDown=false",
+                                            "type": "dynamic"
+                                        }
+                                    ],
+                                    "event": "localDataSourceLoadedForOTR"
+                                }
+                            ],
+                            "priceTag": null,
+                            "regularChannelLogo": "http://d1e6y5sqjpmyyr.cloudfront.net/logos/astro/Aniplus_v1.png",
+                            "serviceId": "51",
+                            "shortSynopsis": "SHORT:As the Avengers and their allies have...",
+                            "showPlayIcon": true,
+                            "startTime": 1741689900000,
+                            "thumbnailAspect": "landscape",
+                            "thumbnailUri": "http://cdn-media.ivpdth.in/Linear/poster640x360_006.jpg",
+                            "title": "O0311S51E044:SHORT:eng"
+                        }, {
+                            "assetType": "broadcastTv",
+                            "channelName": "TVB XING HE HD",
+                            "clientSidePVRStatus": true,
+                            "contentId": "",
+                            "duration": 3600000,
+                            "iconsString": " ",
+                            "isFuture": false,
+                            "labelProgramInfo": "13:00 - 14:00",
+                            "links": [{
+                                    "event": "onTuneSuccess",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/fullScreen/playtv?serviceId=401&logicalChannelNumber=152&classificationId=IVP%3AHome%3AnowOnTv&currentTime={currentTime}&isTVBlocked={isTVBlocked}&displayInfolayer=true&uiState=fullScreen&goToFullScreen=true&locallyServed=true",
+                                    "method": "POST",
+                                    "setPlayIcon": true
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "logicalChannelNumber": 152
+                                            },
+                                            "UI_FunctionName": "performTune",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "events": [
+                                        "ok",
+                                        "play"
+                                    ],
+                                    "nextAction": "onTuneSuccess"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=401&startTime=1741687200000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForInfo",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "info"
+                                }, {
+                                    "event": "localDataSourceLoadedForInfo",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/screens/linearActionMenu?serviceId=401&startTime=1741687200000&contentId=uri%3Aprg%3A2503111000S401E011~uri%3Ascd%3A401%3A2503111000S401E011%3A11032025100000&classificationId=IVP%3AHome%3AnowOnTv&pageIndex=1&isTsb={isTsb}&lPvrParams={lPvrParams}&assetType=ltv",
+                                    "method": "GET",
+                                    "target": "KActionMenu"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=401&startTime=1741687200000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForOTR",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "record"
+                                }, {
+                                    "actions": [{
+                                            "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/library/otr?serviceId=401&contentId=uri%3Aprg%3A2503111000S401E011~uri%3Ascd%3A401%3A2503111000S401E011%3A11032025100000&pageIndex=1&startTime=1741687200000&classificationId=IVP%3AHome%3AnowOnTv&logicalChannelNumber=152&lPvrParams={lPvrParams}&keepOriginalFocus=true&backToHubReload=false&roundDown=false",
+                                            "type": "dynamic"
+                                        }
+                                    ],
+                                    "event": "localDataSourceLoadedForOTR"
+                                }
+                            ],
+                            "priceTag": null,
+                            "regularChannelLogo": "http://linear-poster.astro.com.my/prod/logo/TVB_XingHe_v1.png",
+                            "serviceId": "401",
+                            "shortSynopsis": "SHORT: Rey develops her newly discovered abilities...",
+                            "showPlayIcon": true,
+                            "startTime": 1741687200000,
+                            "thumbnailAspect": "landscape",
+                            "thumbnailUri": "http://cdn-media.ivpdth.in/Linear/poster640x360_001.jpg",
+                            "title": "S1C401D1103011:SHORT:eng EP1"
+                        }, {
+                            "assetType": "broadcastTv",
+                            "channelName": "HECV1TS5",
+                            "clientSidePVRStatus": true,
+                            "contentId": "",
+                            "duration": 7200000,
+                            "iconsString": " ",
+                            "isFuture": false,
+                            "labelProgramInfo": "13:00 - 15:00",
+                            "links": [{
+                                    "event": "onTuneSuccess",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/fullScreen/playtv?serviceId=201&logicalChannelNumber=201&classificationId=IVP%3AHome%3AnowOnTv&currentTime={currentTime}&isTVBlocked={isTVBlocked}&displayInfolayer=true&uiState=fullScreen&goToFullScreen=true&locallyServed=true",
+                                    "method": "POST",
+                                    "setPlayIcon": true
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "logicalChannelNumber": 201
+                                            },
+                                            "UI_FunctionName": "performTune",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "events": [
+                                        "ok",
+                                        "play"
+                                    ],
+                                    "nextAction": "onTuneSuccess"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=201&startTime=1741687200000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForInfo",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "info"
+                                }, {
+                                    "event": "localDataSourceLoadedForInfo",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/screens/linearActionMenu?serviceId=201&startTime=1741687200000&contentId=uri%3Aprg%3A2503111000S201E006~uri%3Ascd%3A201%3A2503111000S201E006%3A11032025100000&classificationId=IVP%3AHome%3AnowOnTv&pageIndex=1&isTsb={isTsb}&lPvrParams={lPvrParams}&assetType=ltv",
+                                    "method": "GET",
+                                    "target": "KActionMenu"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=201&startTime=1741687200000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForOTR",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "record"
+                                }, {
+                                    "actions": [{
+                                            "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/library/otr?serviceId=201&contentId=uri%3Aprg%3A2503111000S201E006~uri%3Ascd%3A201%3A2503111000S201E006%3A11032025100000&pageIndex=1&startTime=1741687200000&classificationId=IVP%3AHome%3AnowOnTv&logicalChannelNumber=201&lPvrParams={lPvrParams}&keepOriginalFocus=true&backToHubReload=false&roundDown=false",
+                                            "type": "dynamic"
+                                        }
+                                    ],
+                                    "event": "localDataSourceLoadedForOTR"
+                                }
+                            ],
+                            "priceTag": null,
+                            "regularChannelLogo": "https://s3.ap-south-1.amazonaws.com/cdn-images.l3.vsscloud.in/logos/bein/Sports_1.png",
+                            "serviceId": "201",
+                            "shortSynopsis": "SHORT:Through a series of daring escapades deep...",
+                            "showPlayIcon": true,
+                            "startTime": 1741687200000,
+                            "thumbnailAspect": "landscape",
+                            "thumbnailUri": "http://cdn-media.ivpdth.in/Linear/poster640x360_002.jpg",
+                            "title": "S1C201D1103006:SHORT:eng EP1"
+                        }, {
+                            "assetType": "broadcastTv",
+                            "channelName": "4K-HDR-TS5",
+                            "clientSidePVRStatus": true,
+                            "contentId": "",
+                            "duration": 900000,
+                            "iconsString": "",
+                            "isFuture": false,
+                            "labelProgramInfo": "13:45 - 14:00",
+                            "links": [{
+                                    "event": "onTuneSuccess",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/fullScreen/playtv?serviceId=202&logicalChannelNumber=202&classificationId=IVP%3AHome%3AnowOnTv&currentTime={currentTime}&isTVBlocked={isTVBlocked}&displayInfolayer=true&uiState=fullScreen&goToFullScreen=true&locallyServed=true",
+                                    "method": "POST",
+                                    "setPlayIcon": true
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "logicalChannelNumber": 202
+                                            },
+                                            "UI_FunctionName": "performTune",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "events": [
+                                        "ok",
+                                        "play"
+                                    ],
+                                    "nextAction": "onTuneSuccess"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=202&startTime=1741689900000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForInfo",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "info"
+                                }, {
+                                    "event": "localDataSourceLoadedForInfo",
+                                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/screens/linearActionMenu?serviceId=202&startTime=1741689900000&contentId=uri%3Aprg%3A2503111045S202E044~uri%3Ascd%3A202%3A2503111045S202E044%3A11032025104500&classificationId=IVP%3AHome%3AnowOnTv&pageIndex=1&isTsb={isTsb}&lPvrParams={lPvrParams}&assetType=ltv",
+                                    "method": "GET",
+                                    "target": "KActionMenu"
+                                }, {
+                                    "actions": [{
+                                            "UI_FunctionArguments": {
+                                                "href": "http://localhost:8081/mhc/bookingInfo?serviceId=202&startTime=1741689900000"
+                                            },
+                                            "UI_FunctionName": "loadLocalDataForOTR",
+                                            "type": "UI_Action"
+                                        }
+                                    ],
+                                    "event": "record"
+                                }, {
+                                    "actions": [{
+                                            "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/action/library/otr?serviceId=202&contentId=uri%3Aprg%3A2503111045S202E044~uri%3Ascd%3A202%3A2503111045S202E044%3A11032025104500&pageIndex=1&startTime=1741689900000&classificationId=IVP%3AHome%3AnowOnTv&logicalChannelNumber=202&lPvrParams={lPvrParams}&keepOriginalFocus=true&backToHubReload=false&roundDown=false",
+                                            "type": "dynamic"
+                                        }
+                                    ],
+                                    "event": "localDataSourceLoadedForOTR"
+                                }
+                            ],
+                            "priceTag": null,
+                            "serviceId": "202",
+                            "shortSynopsis": "SHORT:Through a series of daring escapades deep...",
+                            "showPlayIcon": true,
+                            "startTime": 1741689900000,
+                            "thumbnailAspect": "landscape",
+                            "thumbnailUri": "http://cdn-media.ivpdth.in/Linear/poster640x360_011.jpg",
+                            "title": "S1C202D1103044:SHORT:eng EP1"
+                        }
+                    ],
+                    "swimlaneType": "landscapeType1"
+                }
+            ],
+            "notAllVodUnEntitled": true,
+            "numOfAssetsPerPage": 24,
+            "offset": 0,
+            "prefetchActions": {
+                "prefetchNext": {
+                    "href": "http://localhost:8081/ctap/1.5.0/device_type/stb/screens/embeddedStoreAssetList?offset=24&pageIndex=2&sort=AZ&classificationId=IVP%3AHome%3AnowOnTv&layoutType=landscapeType1&navigateToSeriesPage=false&direction=up"
+                }
+            },
+            "total": 29,
+            "totalAssets": 115
+        }
+    }
+}

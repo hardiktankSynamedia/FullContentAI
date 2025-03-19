@@ -1,0 +1,9 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/">
+        <file>data/assetItem.json</file>
+        <file>data/fullContent.json</file>
+        <file>images/assetDimmer.png</file>
+        <file>images/elideFader_40x49.png</file>
+    </qresource>
+</RCC>

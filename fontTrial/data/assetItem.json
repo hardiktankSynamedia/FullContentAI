@@ -1,0 +1,19 @@
+{
+    "assetType": "broadcastTv",
+    "channelName": "DiscoveryChannel",
+    "clientSidePVRStatus": true,
+    "contentId": "",
+    "duration": 600000,
+    "iconsString": "",
+    "isFuture": false,
+    "labelProgramInfo": "13:40 - 13:50",
+    "priceTag": null,
+    "regularChannelLogo": "https://go.narmada.ivpdth.in/bein/jeevan/logos/beIN%20Sports%201%20Center.svg",
+    "serviceId": "301",
+    "shortSynopsis": "SHORT:  Thor is on the other side of the universe...",
+    "showPlayIcon": true,
+    "startTime": 1741689600000,
+    "thumbnailAspect": "landscape",
+    "thumbnailUri": "http://cdn-media.ivpdth.in/Linear/poster640x360_005.jpg",
+    "title": "A0311S301E065:SHORT:eng"
+}
